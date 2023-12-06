@@ -1,0 +1,8 @@
+table, th, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    background-color: whitesmoke;
+}

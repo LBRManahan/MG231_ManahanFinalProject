@@ -1,0 +1,16 @@
+div.form {
+    display: flex;
+    flex-direction: column;
+}
+form {
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+fieldset {
+    border: 1px solid black;
+    padding: 5px
+}
+input:placeholder-shown {
+    text-align: center;
+}

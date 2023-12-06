@@ -1,0 +1,38 @@
+@keyframes background1 {
+    0% {background-image: url('../images/Mishra-Eminent-One-The-Brothers-War-MtG-Art.jpg');}
+    25% {background-image: url('../images/Atraxa-Grand-Unifier.jpg');}
+    50% {background-image: url('../images/Elesh-Norn-March-of-the-Machine-MtG-Art-scaled.jpg');}
+    75% {background-image: url('../images/Liliana-Untouched-by-Death-MtG-Art.jpg');}
+    100% {background-image: url('../images/Tyvar-Jubilant-Brawler-Phyrexia-All-Will-Be-One-MtG-Art.jpg');}
+}
+
+@keyframes background2 {
+    0% {background-image: url('../images/Urza-Prince-of-Kroog-The-Brothers-War-MtG-Art-scaled.jpg');}
+    25% {background-image: url('../images/Inga-and-Esika-March-of-the-Machine-MtG-Art.jpg');}
+    50% {background-image: url('../images/Quintorius-Kand.jpg');}
+    75% {background-image: url('../images/Thalia-and-The-Gitrog-Monster.jpg');}
+    100% {background-image: url('../images/The-Eternal-Wanderer-MtG-Art.jpg');}
+}
+
+div.animation1 {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-color: whitesmoke;
+    animation-name: background1;
+    transition-duration: 5s;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+  }
+
+div.animation2 {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-color: whitesmoke;
+    animation-name: background2;
+    transition-duration: 5s;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+
+  }
